@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #fa2424, #fb471f, #fc601c, #fc751c, #fb8721);
+  padding: 0px 40px;
+  position: relative;
+}
+
+.wrapper i{
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  font-size: 1.25rem;
+  transform: translateY(-50%);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.23);
+}
+
+.wrapper i:first-child{
+  left: 0px;
+}
+.wrapper i:last-child{
+  right: 0px;
+}
+
+.wrapper ul{
+  list-style: none;
+}
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100%/3)-12px);
+  gap: 20px;
+  overflow: hidden;
+}
+.carousel .dragging .card{
+  cursor: grab;
+  user-select: none;
+}
+
+.carousel .card{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  background-color: rgb(227, 227, 227);
+  border-radius: 10px;
+}
+
+.card-box {
+  padding: 8px 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-box {
+  width: 200px;
+  height: auto;
+}
+
+.img-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding-top: 10px;
+  padding-left: 8px;
+  width: 200px;
+  padding-bottom: 12px;
+}
+
+.card-head {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  color: #000000;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  line-height: 20px;
+}
+
+.content-head {
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  color: #202020;
+
+}
+
+.content-body {
+  font-size: 10px;
+  font-weight: 500;
+  font-family: 'Poppins';
+  color: #6d6d6d;
+}
+
+
+.card-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.card-content ul li {
+  font-size: 9px;
+  font-weight: 500;
+  font-family: 'Poppins';
+  color: #6d6d6d;
+  line-height: 16px;
+}
+
