@@ -71,12 +71,12 @@
   height: auto;
   background-color: rgb(227, 227, 227);
   border-radius: 10px;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
 }
 
 .card:hover{
   transform: scale(1.1); 
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 0 20px #7f430f; 
 }
 
 .card-box {
