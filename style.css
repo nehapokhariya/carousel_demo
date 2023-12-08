@@ -17,6 +17,18 @@
   padding: 0px 40px;
   position: relative;
 }
+.heading{
+  background: linear-gradient(to right, #fa2424, #fb471f, #fc601c, #fc751c, #fb8721);
+  max-width: 100%;
+  padding: 20px 65px;
+}
+.heading span{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #ffe4cc;
+}
 
 .wrapper i{
   height: 50px;
@@ -49,8 +61,13 @@
   grid-auto-columns: calc((100%/3)-12px);
   gap: 25px;
   overflow: hidden;
-  padding: 20px 20px;
+  padding: 30px 20px;
 }
+
+.carousel .no-transition{
+  scroll-behavior :auto;
+}
+
 .carousel .dragging .card{
   cursor: grab;
   user-select: none;
