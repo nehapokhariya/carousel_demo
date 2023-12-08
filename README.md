@@ -1,3 +1,3 @@
 # carousel_demo
 
-http://carousel-demo.com/
+https://nehapokhariya.github.io/carousel_demo/
